@@ -1,6 +1,6 @@
 # SimpleAudio
 
-A pooled audio manager that can be accessed with a singleton, to avoid having to place AudioSources in every GameObject. It supports playing a 2D sound by using the components AudioManager, but also allows 3D spatial sound by instantiating AudioManagers with spatial blend in different positions. The spatial audiomanagers are saved in an object pool, so they can be reused to avoid having to instantiate the objects every time. 
+A pooled audio manager that can be accessed with a singleton, to avoid having to place AudioSources in every GameObject. It supports playing sounds by using the components AudioManager, but also allows 3D spatial sound by instantiating AudioManagers with spatial blend in different positions. The spatial audiomanagers are saved in an object pool, so they can be reused to avoid having to instantiate the objects every time. 
 
 ## Contents
 - **SimpleAudio Monobehaviour**: This behaviour is attached to the SimpleAudio prefab, and should be unique (since it's accessed as a singleton). It allows playing sounds by providing an AudioClip and optionally a position if spatial blend is required.
