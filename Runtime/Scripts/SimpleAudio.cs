@@ -48,6 +48,16 @@ namespace MoodyLib.SimpleAudio {
             if (audioClips == null || audioClips.Count == 0) return;
             Play(audioClips[Random.Range(0, audioClips.Count)], volume);
         }
+        
+        /// <summary>
+        /// Play a random AudioClip from the given array with the given volume.
+        /// </summary>
+        /// <param name="audioClips">An array of AudioClips from which one random clip will be selected.</param>
+        /// <param name="volume">The volume in which the AudioClip will be played.</param>
+        public static void PlayAny(AudioClip[] audioClips, float volume = 1) {
+            if (audioClips == null || audioClips.Length == 0) return;
+            Play(audioClips[Random.Range(0, audioClips.Length)], volume);
+        }
 
         /// <summary>
         /// Play a sound at the given position with the given volume and spatial blend.

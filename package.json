@@ -1,0 +1,15 @@
+{
+  "name": "com.moodylib.simpleaudio",
+  "version": "1.0.0",
+  "displayName": "Simple Audio",
+  "description": "Lightweight audio system with pooled AudioSources.",
+  "author": {
+    "name": "Federico Polí",
+    "url": "https://github.com/fapoli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fapoli/SimpleAudio.git"
+  }
+}
+

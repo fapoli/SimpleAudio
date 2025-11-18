@@ -7,6 +7,18 @@ A pooled audio manager that can be accessed with a singleton, to avoid having to
 - **AudioBag Monobehaviour**: This behaviour can be attached to any GameObject, and will act as a dictionary for AudioClips. You can provide a label and a list of AudioClips, and when calling the *PlayAny* method, a random sound of the corresponding list will play using the SimpleAudio component.
 - **SimpleAudio prefab**: This prefab need to be placed on the scene, and it will instantiate the required components in order for the audio manager to work.
 
+## Install via Git URL
+
+1. In Unity, open **Window > Package Manager**.
+2. Click the **+** button in the top-left corner.
+3. Select **“Add package from Git URL…”**.
+4. Paste this URL and click **Add**:
+   ```text
+   https://github.com/fapoli/SimpleAudio.git
+   ```
+
+Unity will download and add the package to your project. After installation, the package will appear under the Packages folder.
+
 ## How to use
 1. Place the SimpleAudio prefab inside your Unity scene
 2. You can now:
