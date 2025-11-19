@@ -14,7 +14,7 @@ A pooled audio manager that can be accessed with a singleton, to avoid having to
 3. Select **“Add package from Git URL…”**.
 4. Paste this URL and click **Add**:
    ```text
-   https://github.com/fapoli/SimpleAudio.git
+   https://github.com/fapoli/MoodyLib.SimpleAudio.git
    ```
 
 Unity will download and add the package to your project. After installation, the package will appear under the Packages folder.
