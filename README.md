@@ -1,4 +1,4 @@
-# SimpleAudio
+# MoodyLib.SimpleAudio
 
 A pooled audio manager that can be accessed with a singleton, to avoid having to place AudioSources in every GameObject. It supports playing sounds by using the components AudioManager, but also allows 3D spatial sound by instantiating AudioManagers with spatial blend in different positions. The spatial audiomanagers are saved in an object pool, so they can be reused to avoid having to instantiate the objects every time. 
 
